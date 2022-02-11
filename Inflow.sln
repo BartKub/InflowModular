@@ -15,7 +15,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Inflow.Shared.Abstractions"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Inflow.Shared.Infrastructure", "src\Shared\Inflow.Shared.Infrastructure\Inflow.Shared.Infrastructure.csproj", "{62489ECC-55E6-4446-AEF4-D37E064FA14D}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Inflow.Modules.Customers", "src\Modules\Customers\Inflow.Modules.Customers\Inflow.Modules.Customers.csproj", "{40972E47-50C3-431B-A9A0-7A39A79AEE6B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Inflow.Modules.Customers.Api", "src\Modules\Customers\Inflow.Modules.Customers\Inflow.Modules.Customers.Api.csproj", "{40972E47-50C3-431B-A9A0-7A39A79AEE6B}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Inflow.Modules.Customers.Core", "src\Modules\Customers\Inflow.Modules.Customers.Core\Inflow.Modules.Customers.Core.csproj", "{20D6F5BA-B206-4871-83D8-0DB45BCD18A1}"
 EndProject

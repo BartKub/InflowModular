@@ -7,6 +7,7 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using Inflow.Modules.Customers.Api;
 
 namespace Inflow.Bootstrapper
 {
@@ -16,6 +17,8 @@ namespace Inflow.Bootstrapper
         // For more information on how to configure your application, visit https://go.microsoft.com/fwlink/?LinkID=398940
         public void ConfigureServices(IServiceCollection services)
         {
+            services.AddControllers();
+            services.AddCustomerModule();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
@@ -27,6 +30,7 @@ namespace Inflow.Bootstrapper
             }
 
             app.UseRouting();
+            app.UseCustomersModule();
 
             app.UseEndpoints(endpoints =>
             {
